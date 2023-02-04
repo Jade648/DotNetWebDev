@@ -11,5 +11,6 @@ $(function(){
       // play audio
       toast.play();
       $('#toast').toast({ autohide: false }).toast('show');
+      
   });
 });
