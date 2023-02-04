@@ -13,4 +13,3 @@ $(function(){
       $('#toast').toast({ autohide: false }).toast('show');
   });
 });
-
