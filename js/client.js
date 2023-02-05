@@ -14,6 +14,6 @@ $(function(){
   });
 });
 
-$( "div" ).data( "ProductName", { first: "Genen Shoyuu", last: "code" } );
+$( "div" ).data( "ProductName", { first: "Genen Shoyuu", last: code } );
 $( "span" ).first().text( $( "div" ).data( "ProductName" ).first );
 $( "span" ).last().text( $( "div" ).data( "code" ).last );
