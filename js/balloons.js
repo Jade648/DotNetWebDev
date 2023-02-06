@@ -12,3 +12,21 @@ $('.form-check-input').on('change', function () {
    $('#' + this.id + 'Img').removeClass().addClass('animate__animated animate__bounceInDown') :
    $('#' + this.id + 'Img').addClass('animate__animated animate__bounceOutUp');
 });
+
+function Checkall(){
+  var items= document.getElementsByName('btn-group');
+  {
+    if(items[i].type=='checkbox')
+    items[i].checked=true;
+  }
+}
+$('.submit').on('click', function(e) {
+  e.preventDefault();
+  // first pause the audio (in case it is still playing)
+  toast.show();
+  // reset the audio
+  toast.currentTime = 0;
+  // play audio
+  toast.Hide();
+  $('#toast').toast({ autohide: false }).toast('show');   
+});
