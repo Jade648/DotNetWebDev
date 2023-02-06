@@ -9,6 +9,6 @@ $('.form-check-input').on('change', function () {
   $('#' + this.id + 'Img').css('visibility', 'visible')
   // animate balloon in/out based on checkbox
   $(this).is(':checked') ?
-   $('#' + this.id + 'Img').removeClass().addClass('animated bounceInDown') :
-   $('#' + this.id + 'Img').addClass('animated bounceOutUp');
+   $('#' + this.id + 'Img').removeClass().addClass('animate__animated animate__bounceInDown') :
+   $('#' + this.id + 'Img').addClass('animate__animated animate__bounceOutUp');
 });
