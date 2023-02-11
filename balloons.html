@@ -29,6 +29,14 @@
         .ball{
             visibility: hidden;
         }
+
+        .toast2 {
+    position: absolute;
+    top: 65px;
+    right: 10px;
+
+}
+
     </style>
     <!-- animated Css-->
     <link
@@ -77,9 +85,21 @@
                       <input type="checkbox" class="form-check-input" id="blue">
                       <label class="form-check-label" for="blue">Blue balloons</label>
                   </div>
-                  <button type="button" class="btn-group"id ="checkall">checkall</button>
+                  <button type = "submit" class="btn"id="Submit">submit</button>
+                  <button type="reset" class="btn-group"id ="checkall">uncheckall</button>
 
                 </div>
+
+                <div id="toast 2" class="toast">
+                  <div class="toast-header">
+                      <strong class="mr-auto" id="product">Product Name</strong>
+                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">Close</button>
+                          <span aria-hidden="true">&times;</span>
+              
+                  </div>
+                  <div class="toast-body">
+                     Balloons not selected. 
+                  </div>
                 
               </div>            
             <div class="col-sm">

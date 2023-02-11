@@ -19,4 +19,13 @@ body {
     top: 65px;
     right: 10px;
 }
+.h1{
+
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; 
+  animation-duration: 2s; 
+
+}
 
